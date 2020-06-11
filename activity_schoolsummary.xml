@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/inStateTuitionCost2"
+        android:layout_width="273dp"
+        android:layout_height="45dp"
+        android:text="Average Tuition/year (in State):"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/studentSize"
+        android:layout_width="273dp"
+        android:layout_height="45dp"
+        android:text="Amount of Students:"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+    <TextView
+        android:id="@+id/onCampusLivingCost"
+        android:layout_width="273dp"
+        android:layout_height="45dp"
+        android:text="Average Cost of Living/year (on campus):"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <TextView
+        android:id="@+id/offCampusLivingCost2"
+        android:layout_width="273dp"
+        android:layout_height="45dp"
+        android:text="Average Cost of Living/year (off campus):"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <TextView
+        android:id="@+id/gradPercent"
+        android:layout_width="273dp"
+        android:layout_height="45dp"
+        android:text="Graduation Rate (%):"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <TextView
+        android:id="@+id/schoolDecision"
+        android:layout_width="295dp"
+        android:layout_height="51dp"
+        android:text="SCHOOL DECISION #:"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <TextView
+        android:id="@+id/outStateTuitionCost"
+        android:layout_width="273dp"
+        android:layout_height="45dp"
+        android:text="Average Tuition/year (out of State):"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/schoolName"
+        android:layout_width="294dp"
+        android:layout_height="45dp"
+        android:text="School Name:"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <ScrollView
+        android:id="@+id/courseInfo"
+        android:layout_width="347dp"
+        android:layout_height="139dp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="518dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Course Information"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/majorSelected"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Major:" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="670dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
